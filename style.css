@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #e3ffa2;
+}
+
+.brand {
+    width: 100px;
+}
+
+.logo{
+    width: 100%;
+    border-radius: 45%;
+   margin-left: -150%;
+}
+
+.header{
+   
+    display: flex;
+    justify-content: space-around; 
+    background-color: #064635;
+   
+}
+.welcome_heading{
+    color: azure;
+}
