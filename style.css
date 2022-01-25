@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Merriweather', serif;
-    background-color: #e3ffa2;
+    background-color: #f9fac4;
 }
 
 .brand {
@@ -15,16 +15,37 @@ body {
 .logo{
     width: 100%;
     border-radius: 45%;
-   margin-left: -150%;
+    margin-left: 20px;
 }
 
 .header{
-   
-    display: flex;
-    justify-content: space-around; 
-    background-color: #064635;
+    background-image: linear-gradient(
+        to right,
+        #064635 0%,
+        #0B4619 41%,
+        #116530 52%,
+        #B2EA70 68%,
+        #116530 88%,
+        #064635 100%
+
+
+    );
    
 }
-.welcome_heading{
-    color: azure;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.hover_button{
+    background-color: #FFFDA2;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.hover_button:hover {
+    border: 2px solid #950101;
+    cursor: pointer;
 }
