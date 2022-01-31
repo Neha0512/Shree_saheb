@@ -38,14 +38,41 @@ body {
     justify-content: end;
 }
 
-.hover_button{
-    background-color: #FFFDA2;
+.hover_button{ 
+    background-color: #f9fac4;
     border: none;
-    padding: 12px;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: 800;
+    padding: 20px;
 }
 .hover_button:hover {
-    border: 2px solid #950101;
+    background-color: #FFFDA2;
+    border: 2px solid #000000;
     cursor: pointer;
+}
+
+.bg-image{ 
+    height: 80px;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
