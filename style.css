@@ -40,27 +40,31 @@ body {
 
 .hover_button{ 
     background-color: #f9fac4;
-    border: none;
+    border: 3px solid #f9fac4;
     border-radius: 6px;
     font-weight: 800;
     padding: 20px;
+    
 }
 .hover_button:hover {
     background-color: #FFFDA2;
     border: 2px solid #000000;
     cursor: pointer;
+   
 }
 
 .image_grid_1{
     height: 95%;
     width: 95%;
-    border: 10px solid #f9fac4;
+    border: 10px solid #ffffff;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
 }
 
 .image_grid{
     height: 100%;
     width: 100%;
-    border: 10px solid #f9fac4;
+    border: 10px solid #ffffff;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
 }
 
 .row {
@@ -82,7 +86,7 @@ body {
     background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   border: 7px solid #ffffff;
   position: absolute;
@@ -94,5 +98,58 @@ body {
   height: 20%;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 30%);
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
 }
+.intro{
+    margin-left: 40px;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.heading1{
+    color: #000000; 
+    background-image: linear-gradient(
+        to right,
+        #F76E11 0%,
+        #FF9F45 33%,
+        #FFE162 45%,
+        #FC9918 100%
+
+    );
+    padding: 20px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+  
+}
+.about{
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 40px;
+}
+.about_image{
+    border: 7px solid #ffffff;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
+    /* position: relative; */
+}
+ .about_image_container{
+    /* position: absolute; */
+    left: 65%;
+    width: 30%;
+    height: 45%;
+    background-image: linear-gradient(
+        to right,
+        #064635 0%,
+        #0B4619 41%,
+        #116530 52%,
+        #B2EA70 68%,
+        #116530 88%,
+        #064635 100%
+    );
+    z-index: -3;
+    /* transform: skewY(-5deg); */
+} 
