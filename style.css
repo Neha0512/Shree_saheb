@@ -113,10 +113,11 @@ body {
     color: #000000; 
     background-image: linear-gradient(
         to right,
-        #F76E11 0%,
-        #FF9F45 33%,
+        #FFFDA2 0%,
         #FFE162 45%,
-        #FC9918 100%
+        #FF9F45 65%,
+        #FFE162 82%,
+        #FFFDA2 100%
 
     );
     padding: 20px;
