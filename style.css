@@ -198,5 +198,16 @@ body {
     text-align: center;
 }
 .owner_pic{
+    margin-left: 30px;
     border: 7px solid #ffffff;
+    margin-right: 30px;
+}
+.owner_intro{
+    font-size: 25;
+    font-weight: 400;
+}
+.owner_sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
