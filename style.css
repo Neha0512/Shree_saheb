@@ -113,11 +113,11 @@ body {
     color: #000000; 
     background-image: linear-gradient(
         to right,
-        #FFFDA2 0%,
-        #FFE162 45%,
-        #FF9F45 65%,
+        #f9fac4 0%,
+        #FFE162 35%,
+        #FF9F45 45%,
         #FFE162 82%,
-        #FFFDA2 100%
+        #f9fac4 100%
 
     );
     padding: 20px;
@@ -155,3 +155,19 @@ body {
     z-index: -2;
     transform: skewY(-5deg); 
 } 
+.heading2{
+    background-image: linear-gradient(
+        to right,
+        #f9fac4 0%,
+        #FFE162 35%,
+        #FF9F45 45%,
+        #FFE162 82%,
+        #f9fac4 100%
+
+    );
+    padding: 20px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
