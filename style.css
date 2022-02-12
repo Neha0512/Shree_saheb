@@ -171,3 +171,32 @@ body {
     font-size: 30px;
     text-align: center;
 }
+.services{
+     align-items: center;
+}
+.map_pic{ 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
+}
+.heading3{
+    background-image: linear-gradient(
+        to right,
+        #f9fac4 0%,
+        #FFE162 35%,
+        #FF9F45 45%,
+        #FFE162 82%,
+        #f9fac4 100%
+
+    );
+    padding: 20px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.owner_pic{
+    border: 7px solid #ffffff;
+}
