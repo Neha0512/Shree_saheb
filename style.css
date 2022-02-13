@@ -109,7 +109,7 @@ body {
     justify-content: space-between;
 
 }
-.heading1{
+.heading{
     color: #000000; 
     background-image: linear-gradient(
         to right,
@@ -155,22 +155,7 @@ body {
     z-index: -2;
     transform: skewY(-5deg); 
 } 
-.heading2{
-    background-image: linear-gradient(
-        to right,
-        #f9fac4 0%,
-        #FFE162 35%,
-        #FF9F45 45%,
-        #FFE162 82%,
-        #f9fac4 100%
 
-    );
-    padding: 20px;
-    margin: 20px;
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
-}
 .services{
      align-items: center;
 }
@@ -181,22 +166,7 @@ body {
   width: 50%;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
 }
-.heading3{
-    background-image: linear-gradient(
-        to right,
-        #f9fac4 0%,
-        #FFE162 35%,
-        #FF9F45 45%,
-        #FFE162 82%,
-        #f9fac4 100%
 
-    );
-    padding: 20px;
-    margin: 20px;
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
-}
 .owner_pic{
     margin-left: 30px;
     border: 7px solid #ffffff;
@@ -204,10 +174,35 @@ body {
 }
 .owner_intro{
     font-size: 25;
-    font-weight: 400;
+    font-weight: 500px;
 }
 .owner_sec{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.tele_pic:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+.contact{
+    display: flex;
+    justify-content: space-around;
 }
