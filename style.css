@@ -206,3 +206,9 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.footer{
+    background-color: #0B4619;
+    height: 80px;
+    padding:30px;
+   color: #ffffff;
+}
