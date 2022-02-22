@@ -44,12 +44,14 @@ body {
     border-radius: 6px;
     font-weight: 800;
     padding: 20px;
+    text-decoration: none;
     
 }
 .hover_button:hover {
     background-color: #FFFDA2;
     border: 2px solid #000000;
     cursor: pointer;
+    text-decoration: none;
    
 }
 
