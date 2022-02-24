@@ -189,6 +189,7 @@ body {
       
         /* When the animation is finished, start again */
         animation-iteration-count: infinite;
+        align-items: center;
       }
       
       @keyframes shake {
@@ -205,12 +206,14 @@ body {
         100% { transform: translate(1px, -2px) rotate(-1deg); }
       }
 .contact{
-    display: flex;
-    justify-content: space-around;
+    display: block;
 }
 .footer{
     background-color: #0B4619;
     height: 80px;
     padding:30px;
    color: #ffffff;
+}
+@media (min-width: 768px){
+   
 }
