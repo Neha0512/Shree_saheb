@@ -33,18 +33,19 @@
               </div>
         </nav>
     </header>
--->
-        
-        <div class="row">
-            <div class="column">
-              <img src="pics/front.jpg" class="image_grid_1" width="200" height="300">
-              <img src="pics/WhatsApp Image 2022-01-05 at 17.07.57.jpeg" class="image_grid_1" width="200" height="200">
-            </div>
-            <div class="column">
-              <img src="pics/WhatsApp Image 2022-01-05 at 17.07.58.jpeg"class="image_grid" width="300" height="200">
-              <img src="pics/leg.jpg" class="image_grid" width="200" height="200">
-            </div>
-        </div>
+--> 
+<div class="carousel">
+    <div class="slides">
+      <img src="pics/front.jpg" alt="slide image" class="slide" >
+      <img src="pics/WhatsApp Image 2022-01-05 at 17.07.57.jpeg" alt="slide image" class="slide" >
+      <img src="pics/leg.jpg" alt="slide image" class="slide">
+      <img src="pics/WhatsApp Image 2022-01-05 at 17.07.58.jpeg" alt="slide image" class="slide">
+    </div>
+    <div class="controls">
+      <div class="control prev-slide">&#9668;</div>
+      <div class="control next-slide">&#9658;</div>
+    </div>
+  </div>
         <br>
         <br>
         <br>
@@ -80,11 +81,9 @@
       
      </section>
 <div class="bg-text">
-    
-    "     
-    Happiness is looking at dark stained henna      
-"<br><br>
-<h1 id="line1"> Welcome to Heena !!</h1>
+    <h3> "     
+        Happiness is looking at dark stained HENNA     
+    "</h3>
 </div>
 <br>
 <br>
@@ -117,8 +116,10 @@
     <h2>Contact me through either of the two ways:</h2>
     <br>
     <br>
-<div>    <a href=tel:9097230504> <img src="pics/telephone.jpg" class="tele_pic"  width="200" height="180">Ring at: 9097230504</a><br></div>
-<div><a href=mailto:909rakeshk@gmail.com> <img src="pics/mail.jpg" class="tele_pic" width="200" height="180">Email: 909rakeshk@gmail.com</a></div>
+</div>
+<div class="row">
+    <div class="col">    <a href=tel:9097230504 class="test1"> <img src="pics/telephone.jpg" class="tele_pic"  width="200" height="180">Ring at: 9097230504</a><br></div>
+<div class="col"><a href=mailto:909rakeshk@gmail.com class="test1"> <img src="pics/mail.jpg" class="tele_pic" width="200" height="180">Email: 909rakeshk@gmail.com</a></div>
    
 </div>
 <br>
@@ -126,17 +127,9 @@
 <div class="footer"  >
     For more details you can visit me at Temple Road, Purana Bazar, Dhanbad, Jharkhand-826001.
 </div>
-<script>
-    var x=0;
-window.onload=function()
-{
-    var line2= document.getElementById("line1");
-    setInterval(function(){
-        x++;
-        line2.style.left=x;
-    },10);
-}
-</script>
+<script src="app.js">
+   
+   </script>
 
 </body>
 </html>

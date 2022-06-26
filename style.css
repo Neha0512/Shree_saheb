@@ -113,32 +113,83 @@ body html{
 }
 
 .image_grid{
-    height: 100%;
-    width: 100%;
+   
+    height: 80%;
+    width: 125%;
     border: 10px solid #ffffff;
     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
 }
 
-.row {
-    width:40%;
+.carousel {
+    margin-top: 25px;
+    margin-left: 95px;
+  width: 85%;
+  height: 575px;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+ } 
+  :hover .controls {
+    opacity: 1;
+  }
+
+  
+  .controls {
+    opacity: 0;
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    /* padding:0 4px; */
-    /* border-radius: 10px 10px 0 10px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease 0.5s;
   }
-  .column {
-     max-width: 40%;
-    flex: 30%;
-    /* border-radius: 10px 10px 0 10px; */
-    /* padding:  0 4px; */
-  }
+    .control {
+      margin: 0 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.7);
+      opacity: .5;
+      transition: ease .3s;
+      cursor: pointer;
+     }  
+      .control:hover {
+        opacity: 1;
+      }
+   
+  
+  
+    .slides {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      display: flex;
+      width: 100%;
+      transition: 1s ease-in-out all;
+     }  
+      .slide {
+       
+        min-height: 85%;
+        min-width: 100%;
+        border: 10px solid #ffffff;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
+      }
+   
+
+
 
 .bg-text{
     background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.3); /* Black w/opacity/see-through */
   color: white;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
   border: 7px solid #ffffff;
   position: absolute;
@@ -148,15 +199,11 @@ body html{
   z-index: 2;
   width: 55%;
   height: 20%;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 40%);
 }
-#line1{
-    left: 200;
-    position: fixed; 
-    white-space: nowrap;
-}
+
 .intro{
     margin-left: 40px;
     width: 90%;
@@ -262,12 +309,24 @@ body html{
       }
 
 .contact{
-    padding-left: 80px;
+    padding-left: 60px;
+   
 }
 .tele_pic{
+    display: flex;
+      padding-left: 150px;
+  }  
+.row{
+    display: flex;
+} 
+.col{
+    flex: 33.33%;
+    padding: 30px;
+}   
+.test1{
+    text-decoration: none;
 
-      padding-left: 300px;
-  }    
+}
 .footer{
     background-color: #0B4619;
     height: 80px;
